@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
 import {
   FacebookOutlined,
@@ -61,5 +61,4 @@ export default function footer() {
           > &copy; All Right Reserved</p>
         </Row>
       </Layout>
-    )
-}
+      )}
