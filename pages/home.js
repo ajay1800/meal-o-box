@@ -85,6 +85,7 @@ export default function home() {
                 ?
               </h1>
             </div>
+            
             <Col style={{ padding: "0", marginLeft: "146px" }}>
               Choose one of our plans, enter delivery time <br /> and enjoy
               delicious food without leaving your place!
