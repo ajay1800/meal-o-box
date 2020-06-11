@@ -1,0 +1,38 @@
+.subs{
+    transition:1s;
+    width:302px;
+    height:550px;
+    border:1px solid #f0f0f0;
+}
+.subs:hover{
+    transform:scale(1.1,1.1);
+    box-shadow:0px 0px 10px #74cf4e;
+}
+.btn{
+    margin-left:46px;
+    background-color: #74cf4e;
+    color:white;
+}
+.btn:hover{
+    background-color: #74cf4e;
+    color:white;
+}
+.names{
+    text-align: center;
+    color:green;
+    font-size:20px;
+    margin:0px;
+}
+.price{
+    text-align: center;
+}
+.price sup{
+    top:-2.5em
+}
+.price b{
+    font-size:40px;
+}
+.plans b{
+    font-size:large;
+    color:black;
+}

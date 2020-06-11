@@ -156,7 +156,7 @@ export default function home() {
                 position: "absolute",
                 zIndex: 1,
                 backgroundColor: "transparent",
-                marginTop: "25px",
+                marginTop: "10px",
               }}
             >
               <Col className="gutter-row">
@@ -188,25 +188,25 @@ export default function home() {
                 position: "absolute",
                 zIndex: 1,
                 backgroundColor: "transparent",
-                marginTop: "25px",
+                marginTop: "10px",
               }}
             >
               <Col className="gutter-row">
                 <img
-                  src="./images/food.png"
+                  src="./images/homecook.jpg"
                   style={{ width: "30%", marginLeft: "35px" }}
                 />
               </Col>
               <Col className="gutter-row">
-                <h4>Healthy Food</h4>
+                <h4>Homecooked</h4>
               </Col>
               <Col
                 className="gutter-row"
                 style={{ paddingLeft: 0, width: "174px" }}
               >
                 <p style={{ fontSize: "12px" }}>
-                  Food is tested on the basis of hygiene and taste both.
-                  Packaging and freshness of food is maintained
+                  Collaboration with home cooks and provide platform
+                  to start their service near by area.
                 </p>
               </Col>
             </Layout>
@@ -220,25 +220,26 @@ export default function home() {
                 position: "absolute",
                 zIndex: 1,
                 backgroundColor: "transparent",
-                marginTop: "25px",
+                marginTop: "10px",
               }}
             >
               <Col className="gutter-row">
                 <img
-                  src="./images/food.png"
+                  src="./images/delivery.jpg"
                   style={{ width: "30%", marginLeft: "35px" }}
                 />
               </Col>
               <Col className="gutter-row">
-                <h4>Healthy Food</h4>
+                <h4>Customized
+                    <br/>delivery </h4>
               </Col>
               <Col
                 className="gutter-row"
                 style={{ paddingLeft: 0, width: "174px" }}
               >
                 <p style={{ fontSize: "12px" }}>
-                  Food is tested on the basis of hygiene and taste both.
-                  Packaging and freshness of food is maintained
+                  Pre-shedule delivery option and easy cancellation 
+                  Available easy re-ordering and bulk order option.
                 </p>
               </Col>
             </Layout>
@@ -444,12 +445,12 @@ export default function home() {
               <Col className="gutter-row">
                 <img
                   src="./images/hotel.png"
-                  style={{ width: "51%", marginLeft: "-10px" }}
+                  style={{ width: "51%", marginLeft: "0px" }}
                 />
               </Col>
-              <Col className="gutter-row">
-                <h4 style={{ marginLeft: "-39px", marginTop: "20px" }}>
-                  Healthy Food
+              <Col className="gutter-row" style={{textAlign:"center",}}>
+                <h4 style={{ marginLeft: "-50px", marginTop: "20px" }}>
+                  Weeknd Off
                 </h4>
               </Col>
             </Layout>
@@ -469,12 +470,12 @@ export default function home() {
               <Col className="gutter-row">
                 <img
                   src="./images/spa.png"
-                  style={{ width: "51%", marginLeft: "-18px" }}
+                  style={{ width: "51%", marginLeft: "0px" }}
                 />
               </Col>
-              <Col className="gutter-row">
-                <h4 style={{ marginLeft: "-39px", marginTop: "20px" }}>
-                  Healthy Food
+              <Col className="gutter-row" style={{textAlign:"center",}}>
+                <h4 style={{ marginLeft: "-50px", marginTop: "20px" }}>
+                  Swap Meal
                 </h4>
               </Col>
             </Layout>
@@ -493,13 +494,13 @@ export default function home() {
             >
               <Col className="gutter-row">
                 <img
-                  src="./images/food.png"
-                  style={{ width: "51%", marginLeft: "-18px" }}
+                  src="./images/skip-meal.jpg"
+                  style={{ width: "51%", marginLeft: "0px" }}
                 />
               </Col>
-              <Col className="gutter-row">
-                <h4 style={{ marginLeft: "-39px", marginTop: "20px" }}>
-                  Healthy Food
+              <Col className="gutter-row" style={{textAlign:"center",}}>
+                <h4 style={{ marginLeft: "-50px", marginTop: "20px" }}>
+                  Skip Meal
                 </h4>
               </Col>
             </Layout>
@@ -518,13 +519,13 @@ export default function home() {
             >
               <Col className="gutter-row">
                 <img
-                  src="./images/food.png"
-                  style={{ width: "51%", marginLeft: "-18px" }}
+                  src="./images/pause-meal.jpg"
+                  style={{ width: "51%", marginLeft: "0px" }}
                 />
               </Col>
-              <Col className="gutter-row">
-                <h4 style={{ marginLeft: "-39px", marginTop: "20px" }}>
-                  Healthy Food
+              <Col className="gutter-row" style={{textAlign:"center",}}>
+                <h4 style={{ marginLeft: "-50px", marginTop: "20px" }}>
+                  Pause Meal
                 </h4>
               </Col>
             </Layout>

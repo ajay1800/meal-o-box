@@ -25,6 +25,8 @@
   color: white;
 }
 
+
+
 /* .ant-menu-horizontal > .ant-menu-item,
 .ant-menu-horizontal > .ant-menu-submenu {
   border-bottom-color: transparent;
@@ -299,7 +301,9 @@ Header {
   width: 456px;
   height: 425px;
   border-radius: 35px 35px 35px 35px;
-
+  background-size: 470px;
+  background-repeat: no-repeat;
+  background-position: center;
   margin-left: 45px;
 }
 
@@ -307,3 +311,4 @@ Header {
   position: relative;
   color: white;
 }
+

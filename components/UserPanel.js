@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Row, Menu } from "antd";
+import { Avatar, Row, Menu, col } from "antd";
 import styles from "../styles/UserPanel.module.css";
 import Userinfo from "../components/UserInfo";
 
@@ -22,15 +22,18 @@ export default function UserPanel() {
         <h4>Ram</h4>
       </Row>
       <Row style={{ justifyContent: "center" }}>
+        <img src="./images/leaf.png" className={styles.leafBg}/>
         <Menu
           mode="horizontal"
-          style={{ boxShadow: "1px 4px 6px #888888", borderRadius: " 30px" }}
+          style={{ boxShadow: "1px 4px 6px #888888", borderRadius: " 30px", height: "fit-content" }}
         >
-          <Menu.Item> Overview</Menu.Item>
-          <Menu.Item>Account info</Menu.Item>
-          <Menu.Item>Subscription</Menu.Item>
-          <Menu.Item>Payment</Menu.Item>
+          <Menu.Item className={styles.item}> Overview</Menu.Item>
+          <Menu.Item className={styles.item}>Account info</Menu.Item>
+          <Menu.Item className={styles.item}>Subscription</Menu.Item>
+          <Menu.Item className={styles.item}>Payment</Menu.Item>
         </Menu>
+
+        <img src="./images/chilli.png" className={styles.chilliBg}/>
       </Row>
 
       <Row>

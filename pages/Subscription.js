@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row } from "antd";
+import { Card, Row,Col } from "antd";
 import UserLayout from "./userlayout";
 import { Button, Radio } from "antd";
 import { DownloadOutlined, CheckCircleOutlined } from "@ant-design/icons";
@@ -13,16 +13,18 @@ export default function Subscription() {
   return (
     <div>
       <UserLayout>
+        <Row 
+          style={{justifyContent:"center",}}
+        >
+        
+            <img src="./images/leaf.png"
+              style={{opacity:"0.4", zIndex:"-1"}}
+            />
+        </Row>
+        
         <Row style={{ justifyContent: "space-evenly", height: "700px" }}>
-          <Card hoverable style={{ width: 302, height: "550px" }}>
-            <p
-              style={{
-                textAlign: "center",
-                color: "green",
-                fontSize: "20px",
-                margin: " 0",
-              }}
-            >
+          <Card className={styles.subs} hoverable  >
+            <p className={styles.names}>
               {" "}
               Silver{" "}
             </p>
@@ -32,9 +34,9 @@ export default function Subscription() {
               style={{ maxWidth: "42%", margin: "auto" }}
             />
             {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
-            <p style={{ textAlign: "center" }}>
-              <sup style={{ top: "-2.5em" }}>$</sup>
-              <b style={{ fontSize: "40px" }}>40</b>/month
+            <p className={styles.price}>
+              <sup>$</sup>
+              <b>40</b>/month
             </p>
             <Row>
               {/* <i class="fa fa-check-circle" aria-hidden="true"></i> */}
@@ -42,9 +44,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p >
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -58,9 +60,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -74,9 +76,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -85,41 +87,29 @@ export default function Subscription() {
               </p>
             </Row>
 
-            <Button
+            <Button className={styles.btn}
               //   type="primary"
               shape="round"
               icon={<DownloadOutlined />}
               size="large"
-              style={{
-                marginLeft: "46px",
-                backgroundColor: "#74cf4e",
-                color: "white",
-              }}
-            >
+             >
               Subscribe
             </Button>
           </Card>
-          <Card hoverable style={{ width: 302, height: "550px" }}>
-            <p
-              style={{
-                textAlign: "center",
-                color: "green",
-                fontSize: "20px",
-                margin: " 0",
-              }}
-            >
+          <Card className={styles.subs} hoverable >
+            <p className={styles.names} >
               {" "}
-              Silver{" "}
+              Gold{" "}
             </p>
             <img
               alt="example"
-              src="./images/Silver-Icon.jpg"
+              src="./images/gold-Icon.jpg"
               style={{ maxWidth: "42%", margin: "auto" }}
             />
             {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
-            <p style={{ textAlign: "center" }}>
-              <sup style={{ top: "-2.5em" }}>$</sup>
-              <b style={{ fontSize: "40px" }}>40</b>/month
+            <p className={styles.price}>
+              <sup>$</sup>
+              <b>60</b>/month
             </p>
             <Row>
               {/* <i class="fa fa-check-circle" aria-hidden="true"></i> */}
@@ -127,9 +117,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -143,9 +133,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -159,9 +149,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -170,41 +160,29 @@ export default function Subscription() {
               </p>
             </Row>
 
-            <Button
+            <Button className={styles.btn}
               //   type="primary"
               shape="round"
               icon={<DownloadOutlined />}
               size="large"
-              style={{
-                marginLeft: "46px",
-                backgroundColor: "#74cf4e",
-                color: "white",
-              }}
-            >
+             >
               Subscribe
             </Button>
           </Card>
-          <Card hoverable style={{ width: 302, height: "550px" }}>
-            <p
-              style={{
-                textAlign: "center",
-                color: "green",
-                fontSize: "20px",
-                margin: " 0",
-              }}
-            >
+          <Card className={styles.subs} hoverable >
+            <p className={styles.names} >
               {" "}
-              Silver{" "}
+              Platinum{" "}
             </p>
             <img
               alt="example"
-              src="./images/Silver-Icon.jpg"
+              src="./images/platinum-Icon.jpg"
               style={{ maxWidth: "42%", margin: "auto" }}
             />
             {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
-            <p style={{ textAlign: "center" }}>
-              <sup style={{ top: "-2.5em" }}>$</sup>
-              <b style={{ fontSize: "40px" }}>40</b>/month
+            <p className={styles.price}>
+              <sup>$</sup>
+              <b>90</b>/month
             </p>
             <Row>
               {/* <i class="fa fa-check-circle" aria-hidden="true"></i> */}
@@ -212,9 +190,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -228,9 +206,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -244,9 +222,9 @@ export default function Subscription() {
                 icon={faCheckCircle}
                 style={{ color: "#74cf4e" }}
               />
-              <p>
+              <p className={styles.plans}>
                 {" "}
-                <b style={{ fontSize: "large", color: "black" }}>
+                <b>
                   Randomized meal plan{" "}
                 </b>
                 : there
@@ -255,21 +233,22 @@ export default function Subscription() {
               </p>
             </Row>
 
-            <Button
+            <Button className={styles.btn}
               //   type="primary"
               shape="round"
               icon={<DownloadOutlined />}
               size="large"
-              style={{
-                marginLeft: "46px",
-                backgroundColor: "#74cf4e",
-                color: "white",
-              }}
             >
               Subscribe
             </Button>
           </Card>
         </Row>
+        <Row>
+            <img src="./images/tomato.png" 
+              style={{opacity:"0.4", zIndex:"-1", position:"relative", left:"50px;"}}
+            />
+        </Row>
+    
       </UserLayout>
     </div>
   );

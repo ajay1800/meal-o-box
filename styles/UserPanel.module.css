@@ -1,3 +1,28 @@
 .panel{
     justify-content: center;
 }
+.item{
+    height:35px;
+    margin:0 20px !important;
+   padding:0px !important;
+   top:-10px !important;
+}
+.item:hover{
+    color:#74cf4e !important;
+}
+
+.leafBg{
+    opacity: 0.4;
+    z-index: -1;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.chilliBg{
+    opacity: 0.4;
+    z-index: -1;
+    position: relative;
+    right: 70px;
+    top: -40px;
+
+}
